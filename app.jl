@@ -122,7 +122,6 @@ function ui()
     ]
 end
 
-#@page("/", ui)
 @page("/", "app.jl.html")
-Server.isrunning() || Server.up()
+
 end
